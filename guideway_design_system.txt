@@ -1,0 +1,338 @@
+
+GUIDEWAY COACHING — DESIGN SYSTEM
+=================================
+
+1. BRAND STYLE DIRECTION
+------------------------
+Style: Premium Minimal
+Industry: Coaching / Leadership / Personal Growth
+Visual Feel:
+- Calm
+- High-trust
+- Elegant
+- Spacious
+- Nature-inspired
+- Premium but approachable
+
+Design Characteristics:
+- Soft rounded corners
+- Muted earthy tones
+- Large typography
+- Spacious layout
+- Minimal distractions
+- Subtle gradients
+- Soft shadows
+- Restrained animations
+
+--------------------------------------------------
+
+2. COLOR PALETTE
+----------------
+
+PRIMARY COLORS
+---------------
+Primary Dark Green:
+HEX: #1F3D2E
+
+Secondary Green:
+HEX: #4A6B4F
+
+Muted Green:
+HEX: #47564C
+
+Accent Green:
+HEX: #A7C957
+
+BACKGROUND COLORS
+-----------------
+Cream:
+HEX: #F4F1E8
+
+Soft Beige:
+HEX: #E9E4D6
+
+Light Neutral:
+HEX: #ECE9EF
+
+DARK COLORS
+------------
+Dark Navy:
+HEX: #0F172A
+
+Deep Background:
+HEX: #1A1F2B
+
+Medium Dark:
+HEX: #263238
+
+TEXT COLORS
+------------
+Primary Text:
+HEX: #111111
+
+Secondary Text:
+HEX: #5F5F5F
+
+Muted Text:
+HEX: #7A7A7A
+
+Border Color:
+HEX: #D8D2C5
+
+--------------------------------------------------
+
+3. TYPOGRAPHY SYSTEM
+--------------------
+
+PRIMARY HEADING FONT
+--------------------
+Font Name:
+Playfair Display
+
+Usage:
+- Hero headings
+- Section titles
+- Premium emphasis text
+
+Style:
+- Elegant
+- Editorial
+- Luxury-inspired
+
+Recommended Weights:
+- 600
+- 700
+
+SECONDARY BODY FONT
+-------------------
+Font Name:
+Inter
+
+Usage:
+- Body text
+- Buttons
+- Navigation
+- Forms
+- Cards
+
+Style:
+- Modern
+- Clean
+- Readable
+- Professional
+
+Recommended Weights:
+- 400
+- 500
+- 600
+
+--------------------------------------------------
+
+4. TYPOGRAPHY SCALE
+-------------------
+
+H1
+---
+Font: Playfair Display
+Size: 64px
+Weight: 700
+Line Height: 1.1
+
+H2
+---
+Font: Playfair Display
+Size: 48px
+Weight: 700
+Line Height: 1.2
+
+H3
+---
+Font: Playfair Display
+Size: 36px
+Weight: 600
+Line Height: 1.2
+
+H4
+---
+Font: Inter
+Size: 24px
+Weight: 600
+
+Body Large
+-----------
+Font: Inter
+Size: 18px
+Weight: 400
+
+Body
+-----
+Font: Inter
+Size: 16px
+Weight: 400
+
+Small Text
+-----------
+Font: Inter
+Size: 14px
+Weight: 400
+
+Caption
+--------
+Font: Inter
+Size: 12px
+Weight: 400
+
+--------------------------------------------------
+
+5. BUTTON STYLING
+-----------------
+
+Primary Button
+---------------
+Background: #1F3D2E
+Text: #FFFFFF
+Radius: 12px
+Padding: 16px 28px
+
+Hover:
+- Slight brightness increase
+- Soft shadow
+
+Secondary Button
+-----------------
+Background: Transparent
+Border: 1px solid #1F3D2E
+Text: #1F3D2E
+
+Hover:
+- Light cream background
+
+--------------------------------------------------
+
+6. CARD DESIGN
+---------------
+
+Card Background:
+#F8F5ED
+
+Border Radius:
+20px
+
+Shadow:
+0px 10px 30px rgba(0,0,0,0.06)
+
+Spacing:
+32px padding
+
+Hover:
+- Slight lift
+- Subtle shadow increase
+
+--------------------------------------------------
+
+7. LAYOUT SYSTEM
+----------------
+
+Container Width:
+1280px
+
+Section Padding:
+120px Desktop
+80px Tablet
+64px Mobile
+
+Grid System:
+12-column desktop
+6-column tablet
+1-column mobile
+
+--------------------------------------------------
+
+8. ANIMATION STYLE
+------------------
+
+Animation Philosophy:
+Minimal and premium.
+
+Use:
+- Fade up
+- Soft reveal
+- Staggered cards
+- Gentle hover transitions
+
+Avoid:
+- Bounce effects
+- Fast motion
+- Heavy parallax
+- Flashy transitions
+
+Recommended Libraries:
+- Framer Motion
+- Lenis
+- GSAP (optional)
+
+--------------------------------------------------
+
+9. IMAGE STYLE
+--------------
+
+Image Characteristics:
+- Nature-based
+- Leadership-oriented
+- Cinematic lighting
+- Calm atmosphere
+- Soft green grading
+
+Avoid:
+- Generic stock photos
+- Overly bright colors
+- Busy compositions
+
+--------------------------------------------------
+
+10. WEBSITE SECTION STRUCTURE
+-----------------------------
+
+1. Navbar
+2. Hero Section
+3. Feature Cards
+4. Programs Section
+5. Coaching Philosophy
+6. Process / Approach
+7. Testimonials
+8. CTA Banner
+9. Footer
+
+--------------------------------------------------
+
+11. MOBILE DESIGN RULES
+-----------------------
+
+- Keep hero text compact
+- CTA visible immediately
+- Stack cards vertically
+- Maintain large touch targets
+- Avoid oversized typography
+- Reduce spacing carefully
+- Preserve hierarchy
+
+Recommended Mobile Width:
+390px
+
+--------------------------------------------------
+
+12. OVERALL DESIGN GOAL
+-----------------------
+
+The website should communicate:
+
+- Authority
+- Trust
+- Clarity
+- Calm confidence
+- Premium coaching experience
+
+The design should feel:
+“Strategic and transformational”
+NOT
+“Trendy and overdesigned”
