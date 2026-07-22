@@ -2,7 +2,7 @@ import React from 'react'
 import { GoArrowUpRight } from 'react-icons/go'
 import coaching from '../img/coaching.jpg'
 import group from '../img/group.jpg'
-import leader from '../img/Leadership5.png'
+import leader from '../img/leadership5.png'
 
 function Cards() {
 
