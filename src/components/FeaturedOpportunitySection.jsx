@@ -1,6 +1,6 @@
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
-
+import opp from '../img/opp.png'
 function FeaturedOpportunitySection() {
   return (
     <section
@@ -49,7 +49,7 @@ function FeaturedOpportunitySection() {
           <div className="relative min-h-[450px] overflow-hidden lg:min-h-[650px]">
 
             <img
-              src="../src/img/opp.png"
+              src={opp}
               alt="Bauska, Latvia"
               className="
                 absolute
