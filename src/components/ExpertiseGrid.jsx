@@ -7,6 +7,11 @@ import {
   HiOutlineChartBar,
 } from "react-icons/hi2";
 
+import im from '../img/image.png'
+import connections from '../img/connections.png'
+import culture from '../img/culture.png'
+import invest from '../img/invest.png'
+
 function ExpertiseGrid() {
   const expertise = [
     {
@@ -14,7 +19,7 @@ function ExpertiseGrid() {
       title: "Market Entry",
       description:
         "Understanding the local environment and positioning an international opportunity appropriately.",
-      image: "../src/img/image.png",
+      image: im,
       icon: HiOutlineBuildingOffice2,
       tag: "ENTER",
     },
@@ -23,7 +28,7 @@ function ExpertiseGrid() {
       title: "Strategic Connections",
       description:
         "Identifying the people, businesses, institutions and partners that matter.",
-      image: "../src/img/connections.png",
+      image: connections,
       icon: HiOutlineUserGroup,
       tag: "CONNECT",
     },
@@ -32,7 +37,7 @@ function ExpertiseGrid() {
       title: "Cultural Strategy",
       description:
         "Bridging expectations and decision-making styles across Europe, South Asia and the Middle East.",
-      image: "../src/img/culture.png",
+      image: culture,
       icon: HiOutlineGlobeEuropeAfrica,
       tag: "UNDERSTAND",
     },
@@ -41,7 +46,7 @@ function ExpertiseGrid() {
       title: "Investment & Partnerships",
       description:
         "Connecting credible opportunities with investors, developers and strategic partners.",
-      image: "../src/img/invest.png",
+      image: invest,
       icon: HiOutlineChartBar,
       tag: "BUILD",
     },
