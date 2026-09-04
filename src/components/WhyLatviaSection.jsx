@@ -47,7 +47,7 @@ function WhyLatviaSection() {
           <div className="relative min-h-[430px] overflow-hidden lg:min-h-[620px]">
 
             <img
-              src="../src/img/lv.png"
+              src={lv}
               alt="Latvia"
               className="
                 absolute
