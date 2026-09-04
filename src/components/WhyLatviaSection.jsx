@@ -1,5 +1,6 @@
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
+import lv from '../img/lv.png'
 
 function WhyLatviaSection() {
   return (

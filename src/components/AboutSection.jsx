@@ -1,6 +1,6 @@
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
-
+import sh from '../img/shehzad.jpg'
 function AboutSection() {
   return (
     <section
@@ -38,7 +38,7 @@ function AboutSection() {
             <div className="relative h-[500px] overflow-hidden bg-[#d8d0c2] sm:h-[600px] lg:h-[650px]">
 
               <img
-                src="../src/img/shehzad.jpeg"
+                src={sh}
                 alt="Shehzad Khan"
                 className="
                   h-full
