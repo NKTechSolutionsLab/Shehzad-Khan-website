@@ -38,7 +38,7 @@ function AboutSection() {
             <div className="relative h-[500px] overflow-hidden bg-[#d8d0c2] sm:h-[600px] lg:h-[650px]">
 
               <img
-                src="../src/img/shehzad.jpg"
+                src="../src/img/shehzad.jpeg"
                 alt="Shehzad Khan"
                 className="
                   h-full
