@@ -3,12 +3,15 @@ import { useState } from 'react'
 import './App.css'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
-import Key from './components/Key'
-import Cards from './components/Cards'
-import Approach from './components/Approach'
-import Reviews from './components/Reviews'
-import CTA from './components/CTA'
+import AboutSection from './components/AboutSection'
+import WhyLatviaSection from './components/WhyLatviaSection'
+import PositioningSection from './components/PositioningSection'
+import ExpertiseGrid from './components/ExpertiseGrid'
+import JourneySection from './components/JourneySection'
+import CTA from './components/OpportunityCTA'
 import Footer from './components/Footer'
+import GlobalPerspectiveSection from './components/GlobalPerspectiveSection'
+import FeaturedOpportunitySection from './components/FeaturedOpportunitySection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,10 +20,14 @@ function App() {
     <>
     <Nav />
     <Hero />
-    <Key />
-    <Cards />
-    <Approach />
-    <Reviews />
+    <AboutSection />
+    <PositioningSection />
+    <ExpertiseGrid />
+    <JourneySection />
+    <WhyLatviaSection />
+    <GlobalPerspectiveSection />
+    <FeaturedOpportunitySection />
+    
     <CTA />
     <Footer />
     </>

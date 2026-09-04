@@ -1,157 +1,151 @@
 import React from "react";
-import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
 
 function Footer() {
   return (
-    <footer className="bg-[#121F1A] text-[#E9E4D6]">
+    <footer className="bg-[#111817] px-6 text-[#f1ede4] sm:px-10 md:px-14 lg:px-16 xl:px-20">
 
-      <div className="max-w-7xl mx-auto px-6 py-14">
+      <div className="mx-auto max-w-[1400px]">
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+        {/* ================= MAIN FOOTER ================= */}
 
-          {/* Logo */}
+        <div className="grid gap-14 py-16 md:grid-cols-[1.2fr_0.8fr] lg:py-20">
+
+          {/* BRAND */}
 
           <div>
 
-            <h2 className="heading-primary text-2xl mb-5">
-              GUIDEWAY
-              <br />
-              <span className="text-sm tracking-[4px] font-light">
-                COACHING
-              </span>
-            </h2>
+            <div className="flex items-center gap-4">
 
-            <p className="text-gray-400 leading-8 mb-8">
-              Personalized coaching to help you lead with clarity,
-              confidence and purpose.
+              <div className="flex h-11 w-11 items-center justify-center border border-white/30">
+                <span className="font-serif text-xl">
+                  SK
+                </span>
+              </div>
+
+              <div>
+
+                <h2 className="text-sm font-medium tracking-[0.2em]">
+                  SHEHZAD KHAN
+                </h2>
+
+                <p className="mt-1 text-[8px] uppercase tracking-[0.25em] text-white/40">
+                  Cultural Strategy · Cross-Border Opportunities
+                </p>
+
+              </div>
+
+            </div>
+
+            <p className="mt-8 max-w-[460px] font-serif text-2xl leading-[1.2] text-[#e5ded3] sm:text-3xl">
+              Connecting people, perspectives and possibilities across
+              borders.
             </p>
 
-            <div className="flex gap-4">
+          </div>
 
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full bg-[#1B2D24] flex items-center justify-center hover:bg-[#1F3D2E] duration-300"
-              >
-                <FaInstagram />
-              </a>
+          {/* NAVIGATION */}
 
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full bg-[#1B2D24] flex items-center justify-center hover:bg-[#1F3D2E] duration-300"
-              >
-                <FaLinkedinIn />
-              </a>
+          <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 md:grid-cols-2">
 
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full bg-[#1B2D24] flex items-center justify-center hover:bg-[#1F3D2E] duration-300"
-              >
-                <FaGithub />
-              </a>
+            <div>
+
+              <p className="mb-5 text-[9px] font-medium uppercase tracking-[0.25em] text-[#96302f]">
+                Explore
+              </p>
+
+              <ul className="space-y-3">
+
+                <li>
+                  <a
+                    href="#about"
+                    className="text-xs text-white/60 transition-colors duration-300 hover:text-white"
+                  >
+                    About
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#what-i-do"
+                    className="text-xs text-white/60 transition-colors duration-300 hover:text-white"
+                  >
+                    What I Do
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#latvia"
+                    className="text-xs text-white/60 transition-colors duration-300 hover:text-white"
+                  >
+                    Latvia
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#opportunities"
+                    className="text-xs text-white/60 transition-colors duration-300 hover:text-white"
+                  >
+                    Opportunities
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div>
+
+              <p className="mb-5 text-[9px] font-medium uppercase tracking-[0.25em] text-[#96302f]">
+                Connect
+              </p>
+
+              <ul className="space-y-3">
+
+                <li>
+                  <a
+                    href="#contact"
+                    className="text-xs text-white/60 transition-colors duration-300 hover:text-white"
+                  >
+                    Contact
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    className="inline-flex items-center gap-1 text-xs text-white/60 transition-colors duration-300 hover:text-white"
+                  >
+                    LinkedIn
+                    <GoArrowUpRight className="text-sm" />
+                  </a>
+                </li>
+
+              </ul>
 
             </div>
 
           </div>
 
-          {/* Quick Links */}
-
-          <div>
-
-            <h3 className="font-semibold text-xl mb-5">
-              Quick Links
-            </h3>
-
-            <ul className="space-y-4 text-gray-400">
-
-              <li><a href="#" className="hover:text-white">Home</a></li>
-              <li><a href="#" className="hover:text-white">About</a></li>
-              <li><a href="#" className="hover:text-white">Coaching</a></li>
-              <li><a href="#" className="hover:text-white">Programs</a></li>
-              <li><a href="#" className="hover:text-white">Resources</a></li>
-              <li><a href="#" className="hover:text-white">Contact</a></li>
-
-            </ul>
-
-          </div>
-
-          {/* Programs */}
-
-          <div>
-
-            <h3 className="font-semibold text-xl mb-5">
-              Programs
-            </h3>
-
-            <ul className="space-y-4 text-gray-400">
-
-              <li><a href="#">1:1 Coaching</a></li>
-              <li><a href="#">Leadership Programs</a></li>
-              <li><a href="#">Group Coaching</a></li>
-              <li><a href="#">Workshops</a></li>
-              <li><a href="#">Retreats</a></li>
-
-            </ul>
-
-          </div>
-
-          {/* Resources */}
-
-          <div>
-
-            <h3 className="font-semibold text-xl mb-5">
-              Resources
-            </h3>
-
-            <ul className="space-y-4 text-gray-400">
-
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Guides</a></li>
-              <li><a href="#">Tools</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Podcast</a></li>
-
-            </ul>
-
-          </div>
-
-          {/* CTA */}
-
-          <div>
-
-            <h3 className="font-semibold text-xl mb-5">
-              Let's Connect
-            </h3>
-
-            <p className="text-gray-400 leading-8 mb-8">
-              Have questions or ready to start your journey?
-              We'd love to hear from you.
-            </p>
-
-            <button className="bg-[#1F3D2E] border border-[#365542] hover:bg-[#294837] duration-300 px-8 py-4 rounded-xl font-medium cursor-pointer">
-              Book a Call
-            </button>
-
-          </div>
-
         </div>
 
-        {/* Bottom */}
+        {/* ================= BOTTOM BAR ================= */}
 
-        <div className="border-t border-[#25342D] mt-14 pt-8 flex flex-col md:flex-row justify-between items-center gap-5">
+        <div className="flex flex-col gap-5 border-t border-white/10 py-6 sm:flex-row sm:items-center sm:justify-between">
 
-          <p className="text-gray-500 text-sm">
-            © 2024 Guideway Coaching. All rights reserved.
+          <p className="text-[8px] uppercase tracking-[0.22em] text-white/35">
+            © {new Date().getFullYear()} Shehzad Khan. All rights reserved.
           </p>
 
-          <div className="flex gap-8 text-gray-500 text-sm">
+          <div className="flex items-center gap-3">
 
-            <a href="#" className="hover:text-white">
-              Privacy Policy
-            </a>
+            <span className="h-px w-7 bg-[#96302f]" />
 
-            <a href="#" className="hover:text-white">
-              Terms of Service
-            </a>
+            <p className="text-[8px] uppercase tracking-[0.22em] text-white/35">
+              Riga · Latvia
+            </p>
 
           </div>
 
